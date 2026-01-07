@@ -45,3 +45,27 @@ The selected configuration is designed to support a medium-scale booking applica
 - Eight gigabytes of RAM supports smooth application performance and concurrent user access.
 - Solid-state storage ensures faster read and write operations for application data.
 - A pay-as-you-go billing model allows flexibility and avoids long-term financial commitment.
+
+
+## AWS Cloud VM Pricing
+
+Amazon Web Services (AWS) was selected as one of the cloud service providers for evaluation due to its wide adoption, global availability, and mature infrastructure services.
+
+The AWS Pricing Calculator was used to estimate the cost of a virtual machine based on the configuration defined in Section 4.2.2. The calculation was performed using the Australia (Sydney) region and an on-demand billing model.
+
+### AWS Virtual Machine Cost Summary
+
+| Cost Component | Details |
+|----------------|---------|
+| Cloud Provider | Amazon Web Services (AWS) |
+| Region | Asia Pacific (Sydney) |
+| Operating System | Ubuntu Server (Linux) |
+| vCPU | 2 vCPU |
+| Memory | 8 GB |
+| Storage | 100 GB SSD |
+| Billing Model | Pay-as-you-go |
+| Estimated Monthly Cost (1 VM) | AUD XXX |
+
+The pricing estimate generated using the AWS Pricing Calculator has been exported and included in the project repository for reference.
+
+
