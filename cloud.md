@@ -64,7 +64,7 @@ The AWS Pricing Calculator was used to estimate the cost of a virtual machine ba
 | Memory | 8 GB |
 | Storage | 100 GB SSD |
 | Billing Model | Pay-as-you-go |
-| Estimated Monthly Cost (1 VM) | AUD XXX |
+| Estimated Monthly Cost (1 VM) | AUD 5,939  |
 
 The pricing estimate generated using the AWS Pricing Calculator has been exported and included in the project repository for reference.
 
