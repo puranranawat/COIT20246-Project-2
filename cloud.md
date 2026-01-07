@@ -68,4 +68,24 @@ The AWS Pricing Calculator was used to estimate the cost of a virtual machine ba
 
 The pricing estimate generated using the AWS Pricing Calculator has been exported and included in the project repository for reference.
 
+##  Azure Cloud VM Pricing
+
+Microsoft Azure was selected as one of the cloud service providers for evaluation due to its strong enterprise presence, integration capabilities, and availability of Australian data centre regions.
+
+The Azure Pricing Calculator was used to estimate the cost of a virtual machine based on the standard configuration defined in Section 4.2.2. The pricing was calculated using the Australia East region and a pay-as-you-go billing model to ensure a fair comparison with other cloud providers.
+
+### Azure Virtual Machine Cost Summary
+
+| Cost Component | Details |
+|----------------|---------|
+| Cloud Provider | Microsoft Azure |
+| Region | Australia East |
+| Operating System | Ubuntu Server (Linux) |
+| vCPU | 2 vCPU |
+| Memory | 8 GB |
+| Storage | 100 GB SSD |
+| Billing Model | Pay-as-you-go |
+| Estimated Monthly Cost (1 VM) | Approx. AUD 4,650 |
+
+The pricing estimate was generated using the official Azure Pricing Calculator and exported as an Excel file, which has been included in the project repository. The original estimate was provided in USD and has been converted to AUD using an approximate exchange rate for reporting purposes.
 
