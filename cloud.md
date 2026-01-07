@@ -89,3 +89,50 @@ The Azure Pricing Calculator was used to estimate the cost of a virtual machine 
 
 The pricing estimate was generated using the official Azure Pricing Calculator and exported as an Excel file, which has been included in the project repository. The original estimate was provided in USD and has been converted to AUD using an approximate exchange rate for reporting purposes.
 
+
+
+## Total Cloud Cost Calculation
+
+Based on the project scenario, Truelec requires a total of six servers to support its booking application and related services. This includes three servers at the headquarters and one server at each of the three branch offices.
+
+The following calculations present the estimated total cloud infrastructure cost over a five-year period for both AWS and Microsoft Azure.
+
+### Total Number of Virtual Machines
+
+- Headquarters servers: 3
+- Branch office servers: 3
+- Total virtual machines: 6
+
+---
+
+### AWS Total Cost Calculation
+
+| Cost Item | Calculation | Estimated Cost (AUD) |
+|---------|------------|----------------------|
+| Monthly cost (1 VM) | As per AWS calculator | 5,939 |
+| Monthly cost (6 VMs) | 5,939 × 6 | 35,634 |
+| Annual cost | 35,634 × 12 | 427,608 |
+| 5-year total cost | 427,608 × 5 | 2,138,040 |
+
+---
+
+### Azure Total Cost Calculation
+
+| Cost Item | Calculation | Estimated Cost (AUD) |
+|---------|------------|----------------------|
+| Monthly cost (1 VM) | As per Azure calculator | 4,650 |
+| Monthly cost (6 VMs) | 4,650 × 6 | 27,900 |
+| Annual cost | 27,900 × 12 | 334,800 |
+| 5-year total cost | 334,800 × 5 | 1,674,000 |
+
+---
+
+### Cost Comparison Summary
+
+| Cloud Provider | Estimated 5-Year Cost (AUD) |
+|---------------|-----------------------------|
+| Amazon Web Services (AWS) | 2,138,040 |
+| Microsoft Azure | 1,674,000 |
+
+The comparison indicates that Microsoft Azure offers a lower estimated total cost over a five-year period for the selected virtual machine configuration.
+
