@@ -32,3 +32,40 @@ The risk assessment process involves the following steps:
 - Calculation of overall risk levels using the provided risk assessment template
 
 The results of the risk assessment are documented using a structured spreadsheet, and a Threat–Vulnerability–Asset (TVA) matrix is used to summarise and visualise the identified risks.
+
+
+## 4.3.3 Asset Identification
+
+The following asset categories have been identified as part of the cyber security risk assessment:
+
+- Hardware assets, including routers, switches, firewalls, and servers
+- Software assets, including operating systems and enterprise applications
+- Network assets, including wired networks, wireless networks, and VPN connections
+- Data assets, including sensitive organisational and customer information
+- People assets, including employees, IT administrators, and management staff
+
+---
+
+## 4.3.4 Data Asset Identification
+
+The following data assets are considered critical to the organisation’s operations and are included in the risk assessment:
+
+- Customer booking data, including customer details and booking records
+- Employee personal data, including payroll and identification information
+- Financial and accounting data, including invoices and payment records
+- Operational project data, including project plans and engineering documentation
+
+---
+
+## 4.3.5 Threat Categories Considered
+
+The risk assessment considers vulnerabilities across the following information security threat categories:
+
+- Unauthorised access
+- Malware and ransomware attacks
+- Data breaches or data leakage
+- Denial of Service (DoS) attacks
+- Insider threats
+- Network interception or eavesdropping
+- System misconfiguration
+- Physical security breaches
