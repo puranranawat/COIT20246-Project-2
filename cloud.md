@@ -136,3 +136,50 @@ The following calculations present the estimated total cloud infrastructure cost
 
 The comparison indicates that Microsoft Azure offers a lower estimated total cost over a five-year period for the selected virtual machine configuration.
 
+##  Cloud Virtual Machines vs On-Premise Servers
+
+This section compares the use of cloud-based virtual machines with the option of purchasing new on-premise physical servers to replace the organisation’s existing infrastructure.
+
+### Advantages of Cloud Virtual Machines
+
+Cloud-based virtual machines provide several benefits for the organisation:
+- No upfront capital expenditure on hardware.
+- Scalability, allowing resources to be increased or decreased based on demand.
+- High availability supported by cloud provider infrastructure.
+- Reduced responsibility for hardware maintenance and physical security.
+- Faster deployment of new servers and services.
+
+### Disadvantages of Cloud Virtual Machines
+
+Despite their advantages, cloud virtual machines also present some limitations:
+- Ongoing operational costs over the long term.
+- Dependence on reliable internet connectivity.
+- Less direct control over physical infrastructure.
+- Potential cost increases if resource usage is not properly managed.
+
+---
+
+### Advantages of New On-Premise Physical Servers
+
+Purchasing new physical servers offers the following benefits:
+- Full control over hardware and system configurations.
+- Predictable long-term costs after the initial purchase.
+- No reliance on external service providers for infrastructure availability.
+
+### Disadvantages of New On-Premise Physical Servers
+
+However, on-premise servers also have notable drawbacks:
+- High upfront capital investment.
+- Ongoing maintenance, upgrades, and replacement costs.
+- Hardware becomes outdated over time.
+- Limited scalability without additional hardware purchases.
+
+---
+
+## Cloud Service Recommendation
+
+Based on the five-year cost comparison and the operational requirements of Truelec, migrating the organisation’s booking application servers to the cloud is recommended over purchasing new on-premise servers.
+
+Microsoft Azure is recommended as the preferred cloud service provider for this project. The analysis shows that Azure offers a lower estimated total cost over a five-year period compared to Amazon Web Services for the selected virtual machine configuration. In addition, Azure provides strong enterprise support, reliable Australian data centre regions, and seamless scalability to support future business growth.
+
+Overall, adopting cloud-based virtual machines using Microsoft Azure enables Truelec to reduce upfront costs, improve flexibility, and ensure reliable access to critical application services.
