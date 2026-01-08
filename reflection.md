@@ -36,3 +36,16 @@ Commits were made across multiple weeks of the term, particularly during the ear
 
 Overall, the difference in the number of commits is proportional to the scope and type of tasks performed by each student. The commit history accurately represents individual contributions and reflects effective use of GitHub as a collaboration and version control tool.
 
+
+## Reflection on Group Work
+
+The project was completed through collaborative effort between group members, with tasks allocated based on individual strengths and availability. Regular communication and the use of GitHub for version control supported effective coordination throughout both Project 1 and Project 2.
+
+One of the main challenges encountered during the project was coordinating workloads alongside other academic commitments. At times, progress slowed due to differing schedules, which required flexibility and clear communication to maintain momentum. These challenges were managed by adjusting task allocations and focusing on completing priority components first.
+
+The use of GitHub significantly improved collaboration by allowing work to be completed asynchronously while maintaining visibility of progress. Regular commits and documentation updates helped reduce the risk of version conflicts and ensured that contributions were clearly recorded.
+
+For future projects, improvements could be made by establishing more structured weekly milestones and scheduling regular short check-in meetings to review progress. Earlier clarification of task ownership and deadlines would further improve efficiency and reduce pressure during later stages of the project.
+
+Overall, the group worked effectively to complete the project requirements. The experience reinforced the importance of clear communication, task planning, and consistent use of collaboration tools in successfully delivering technical projects.
+
