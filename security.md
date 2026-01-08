@@ -21,7 +21,7 @@ Multiple information security threat categories were assessed, including unautho
 
 Each identified risk was evaluated by assigning likelihood and impact ratings, with overall risk levels calculated using the template’s built-in methodology. The results of the assessment highlight that customer booking data presents the highest overall risk due to its sensitivity and business importance.
 
-[View risk assessment spreadsheet](./risk-assessment.xlsx)
+[View risk assessment spreadsheet](./cloud/risk-assessment.xlsx)
 
 ---
 
