@@ -7,20 +7,19 @@ This section gives a cyber security risk assessment for the company and recommen
 
 ## Risk Assessment
 
-This section presents a cyber security risk assessment for the proposed network design of Truelec. The purpose of this assessment is to identify key assets, threats, and vulnerabilities within the organisation’s network and to evaluate the potential risks associated with cyber security incidents.
+This risk assessment evaluates the cyber security risks associated with the proposed network design and information systems of Truelec. The assessment focuses on identifying critical assets, relevant threats, existing vulnerabilities, and the potential impact of security incidents on the organisation.
 
-The risk assessment conducted in this project is a mini risk assessment. Due to limited time and available information, only selected stages of a full risk assessment process have been applied. The assessment follows the methodology and spreadsheet template provided in the unit and evaluates risks across multiple information security threat categories.
+Due to limited information and time constraints, a mini risk assessment approach has been adopted using the risk assessment spreadsheet template provided in the unit. The assessment considers risks across multiple asset categories, including hardware, software, network, data, and people assets, and evaluates risks based on confidentiality, integrity, and availability.
 
-The scope of the risk assessment includes:
-- Headquarters network infrastructure
-- Branch office network infrastructure
-- On-premise and cloud-hosted application servers
-- Wired and wireless network services
-- Organisational data assets, including operational, employee, and customer data
+The following key data assets were identified as critical to the organisation:
+- Customer booking data
+- Employee personal data
+- Financial and accounting data
+- Operational project data
 
-Cyber security risks are evaluated with respect to confidentiality, integrity, and availability of information assets. Both technical and organisational vulnerabilities are considered to provide a realistic assessment of the organisation’s security posture.
+Multiple information security threat categories were assessed, including unauthorised access, malware and ransomware attacks, data breaches, denial of service attacks, insider threats, network interception, system misconfiguration, and physical security breaches.
 
-The detailed risk assessment, including the asset register, risk register, and Threat–Vulnerability–Asset (TVA) matrix, has been completed using the provided spreadsheet template.
+Each identified risk was evaluated by assigning likelihood and impact ratings, with overall risk levels calculated using the template’s built-in methodology. The results of the assessment highlight that customer booking data presents the highest overall risk due to its sensitivity and business importance.
 
 [View risk assessment spreadsheet](./risk-assessment.xlsx)
 
@@ -28,30 +27,32 @@ The detailed risk assessment, including the asset register, risk register, and T
 
 ## Security Controls
 
-Based on the risk assessment results, customer booking data was identified as one of the highest risk data assets due to its sensitivity and importance to business operations. The following security controls are recommended to reduce the likelihood and impact of identified risks.
+Based on the outcomes of the risk assessment, customer booking data was identified as the highest-risk data asset. The following security controls are recommended to reduce the likelihood and impact of cyber security incidents affecting this data.
 
 ### Access Control and Authentication
 
-Strong access control mechanisms should be implemented to restrict access to sensitive systems and data. This includes role-based access control, strong password policies, and multi-factor authentication for critical systems such as the booking application and database servers.
+Strong access control mechanisms should be implemented to ensure that only authorised users can access customer booking data. Role-based access control should be enforced, and multi-factor authentication should be required for all users accessing booking systems, particularly for administrative and remote access.
 
-This control reduces the risk of unauthorised access and limits the potential damage caused by compromised user accounts. A potential disadvantage is increased complexity for users during authentication.
-
----
-
-### Network Security and Traffic Filtering
-
-Network security controls such as firewalls, intrusion prevention systems, and secure VPN configurations should be deployed to protect internal networks from external threats. Traffic filtering rules should be applied to restrict unnecessary inbound and outbound network access.
-
-These controls reduce the likelihood of malware infections, denial of service attacks, and network interception. However, improper configuration may lead to performance issues or accidental service disruptions.
+This control will be implemented on the application servers hosting the booking system and enforced through authentication services and firewall rules. By limiting access based on job roles, the risk of unauthorised access and insider misuse is significantly reduced. Users may experience a slightly longer login process, but this is a reasonable trade-off for improved security.
 
 ---
 
-### Data Protection and Backup Controls
+### Network Segmentation and Firewall Enforcement
 
-Sensitive data should be protected using encryption for data at rest and in transit. Regular backups should be performed and securely stored to ensure data can be recovered in the event of data loss, ransomware attacks, or system failures.
+Customer booking data should be hosted within a dedicated server network segment that is isolated from other internal networks. Strict firewall rules should be applied to allow access only from authorised internal systems and secure VPN connections.
 
-This control minimises the impact of data breaches and improves business continuity. The main limitation is the additional storage and management overhead required for maintaining secure backups.
+This control will be implemented using the firewall and network segmentation defined in the network design. Network segmentation reduces the ability of attackers to move laterally within the network and limits the potential impact of a security breach. This control has minimal impact on end users when properly configured.
 
 ---
 
-Overall, the recommended security controls provide layered protection across people, processes, and technology. Implementing these controls will significantly improve the organisation’s cyber security posture while balancing usability and operational requirements.
+### Regular Patching and Malware Protection
+
+All servers hosting the booking application should be regularly patched to address known vulnerabilities. In addition, anti-malware and intrusion prevention tools should be deployed to detect and prevent malicious activity such as malware and ransomware attacks.
+
+This control will be implemented on servers within the server network segment and managed centrally by IT administrators. Regular patching reduces the likelihood of successful exploitation of vulnerabilities, while malware protection helps detect and respond to threats early. Occasional planned maintenance windows may be required, but these can be scheduled to minimise disruption.
+
+---
+
+### Summary
+
+The recommended security controls address the most significant risks identified in the risk assessment by strengthening access control, isolating critical systems, and reducing system vulnerabilities. Together, these controls provide a layered security approach that improves the protection of customer booking data and enhances the overall cyber security posture of the organisation.
