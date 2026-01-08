@@ -20,5 +20,19 @@ The following table outlines the contributions made by each group member during 
 | Student Name | Student ID | Key Contributions |
 |-------------|-----------|------------------|
 | Akhil | 12314139 | Contributed to the network design for Project 1, including support with network diagrams and IP addressing. Assisted with cloud services research and reviewed documentation for accuracy and consistency. |
-| Puran Ranawat | 12315514 | Took primary responsibility for the overall project execution, including detailed network design, cloud services evaluation, cost calculations, and final cloud provider recommendation. Led the cyber security risk assessment, completed the risk assessment spreadsheet, security controls, ethical issues discussion, and coordinated the final documentation and GitHub management. |
+| Mine  | 12315514 | Took primary responsibility for the overall project execution, including detailed network design, cloud services evaluation, cost calculations, and final cloud provider recommendation. Led the cyber security risk assessment, completed the risk assessment spreadsheet, security controls, ethical issues discussion, and coordinated the final documentation and GitHub management. |
+
+
+
+## Reflection on Commits and Tasks
+
+GitHub commit history was used to track individual contributions and overall project progress throughout the term. Commits were made consistently during the weeks in which planning, implementation, and documentation activities were carried out.
+
+The student with ID 12315514 made a higher number of commits compared to the other team member. This is because this student took primary responsibility for integrating and maintaining multiple components of the project, including network design documentation, cloud services evaluation, cyber security risk assessment, ethical issues, and overall formatting. Frequent commits were made to reflect incremental updates, revisions, and improvements across several project files.
+
+Akhil (Student ID: 12314139) contributed fewer commits, which reflects the nature of the tasks assigned to him. His contributions focused on specific areas such as assisting with network diagrams, supporting cloud services research, and reviewing documentation. These tasks involved fewer iterative changes, resulting in a lower number of commits while still representing meaningful contribution to the project.
+
+Commits were made across multiple weeks of the term, particularly during the early planning phase, the main implementation phase, and the final review stage. This distribution indicates continuous engagement throughout the project rather than last-minute work.
+
+Overall, the difference in the number of commits is proportional to the scope and type of tasks performed by each student. The commit history accurately represents individual contributions and reflects effective use of GitHub as a collaboration and version control tool.
 
