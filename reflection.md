@@ -13,7 +13,6 @@ A screenshot showing the commit history of all team members has been included be
 
 ![GitHub commits screenshot](diagram/GitHubcommitsscreenshot.png)
 
-*Insert GitHub commits screenshot here.*
 
 ## List of Tasks
 
