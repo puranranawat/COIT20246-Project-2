@@ -15,11 +15,10 @@ A screenshot showing the commit history of all team members has been included be
 
 ## List of Tasks
 
-The following table outlines the key contributions made by each group member throughout Project 1 and Project 2. Tasks were distributed based on individual strengths, availability, and project requirements.
+The following table outlines the contributions made by each group member during the completion of Project 1 and Project 2. Tasks were allocated based on individual strengths and project requirements, and all members contributed throughout the duration of the project.
 
-| Student Name | Key Contributions |
-|-------------|------------------|
-| Student A | Led the network design for Project 1, including IP addressing, network architecture, and diagram creation. Contributed significantly to the cloud services cost analysis and assisted in reviewing the final documentation. |
-| Student B | Took primary responsibility for the cyber security risk assessment, including completing the risk assessment spreadsheet, TVA matrix, and security controls recommendations. Also contributed to the ethical issues analysis. |
-| Student C | Focused on cloud services evaluation, including AWS and Azure pricing analysis, five-year cost calculations, and final cloud provider recommendation. Assisted with documentation formatting and consistency checks. |
-| Student D | Coordinated project planning and documentation, prepared the project plan, and led the project reflection section. Assisted with diagram reviews, GitHub management, and final submission checks. |
+| Student Name | Student ID | Key Contributions |
+|-------------|-----------|------------------|
+| Akhil | 12314139 | Contributed to the network design for Project 1, including support with network diagrams and IP addressing. Assisted with cloud services research and reviewed documentation for accuracy and consistency. |
+| Puran Ranawat | 12315514 | Took primary responsibility for the overall project execution, including detailed network design, cloud services evaluation, cost calculations, and final cloud provider recommendation. Led the cyber security risk assessment, completed the risk assessment spreadsheet, security controls, ethical issues discussion, and coordinated the final documentation and GitHub management. |
+
