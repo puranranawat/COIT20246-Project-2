@@ -11,6 +11,8 @@ GitHub was used as the primary platform for collaboration and version control th
 
 A screenshot showing the commit history of all team members has been included below to demonstrate active participation and ongoing engagement across the duration of the project.
 
+![GitHub commits screenshot](diagrams/Branch.png)
+
 *Insert GitHub commits screenshot here.*
 
 ## List of Tasks
